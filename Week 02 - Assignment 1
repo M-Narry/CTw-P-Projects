@@ -1,0 +1,20 @@
+# Input
+tax = 8.5
+cake_1 = float(input("Enter price for cake 1: ")
+cake_2 = float(input("Enter price for cake 2: ")
+cake_3 = float(input("Enter price for cake 3: ")
+
+# Processing
+subtotal = cake_1 + cake_2 + cake_3
+tax_total = subtotal * (tax / 100)
+total = subtotal + tax_total
+
+# Output
+print("----Receipt----")
+print("Cake 1 = $", cake_1)
+print("Cake 2 = $", cake_2)
+print("Cake 3 = $", cake_3)
+print("---------------")
+print("Subtotal = $", subtotal)
+print("Tax = $", tax_total)
+print("Total = $", total)
