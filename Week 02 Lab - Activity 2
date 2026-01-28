@@ -1,0 +1,8 @@
+rect_h_1 = int(input("Enter height of rectangle 1: "))
+rect_w_1 = int(input("Enter width of rectangle 1: "))
+rect_h_2 = int(input("Enter height of rectangle 2: "))
+rect_w_2 = int(input("Enter width of rectangle 2: "))
+rect_a_1 = rect_h_1 * rect_w_1
+rect_a_2 = rect_h_2 * rect_w_2
+total_area = rect_a_1 + rect_a_2
+print("Total area =", total_area)
