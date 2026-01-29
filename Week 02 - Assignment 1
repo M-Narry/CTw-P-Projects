@@ -11,10 +11,10 @@ total = subtotal + tax_total
 
 # Output
 print("----Receipt----")
-print("Cake 1 = $", cake_1)
-print("Cake 2 = $", cake_2)
-print("Cake 3 = $", cake_3)
+print(f'Cake 1 = ${cake_1}')
+print(f'Cake 2 = ${cake_2}')
+print(f'Cake 3 = ${cake_3}')
 print("---------------")
-print("Subtotal = $", subtotal)
-print("Tax = $", tax_total)
-print("Total = $", total)
+print(f'Subtotal = ${subtotal}')
+print(f'Tax = ${tax_total}:.2f')
+print(f'Total = ${total}')
