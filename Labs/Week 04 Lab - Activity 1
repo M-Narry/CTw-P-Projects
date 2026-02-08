@@ -1,0 +1,11 @@
+tot = 0
+i = 0
+num = int(input("enter a number (-1 to end): "))
+
+while num != -1:
+    if num % 2 == 0:
+        tot += num
+        i += 1
+    num = int(input("Enter a number (-1 to end): "))
+
+print(f"Count of even numbers: {i}\nSum of even numbers: {tot}")

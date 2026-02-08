@@ -1,0 +1,13 @@
+tot = 0.00
+budget = int(input("Amount budgeted for a month: "))
+expense = int(input("Expense (enter -1 to end): "))
+while expense != -1:
+    tot += expense
+    expense = int(input("Expense (enter -1 to end): "))
+
+tot -= budget
+if tot > 0:
+    print("Over budget by", tot)
+else:
+    tot *= -1
+    print("Under budget by", tot)

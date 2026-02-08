@@ -1,0 +1,16 @@
+f_name = input("Enter your first name: ")
+l_name = input("Enter your last name: ")
+gross_pay = float(input("Enter your gross pay: "))
+dependents = int(input("Enter number of dependents: "))
+
+if dependents <= 1:
+    tax = 20
+elif dependents <= 3:
+    tax = 15
+elif dependents >= 4:
+    tax = 10
+
+net_pay = gross_pay - (gross_pay * tax / 100)
+
+print("---------------------------")
+print(f"Name : {f_name} {l_name}\nGross Pay : {gross_pay:.2f}\nDependents : {dependents}\nTax rate : {tax}%\nNet Pay : {net_pay:.2f}")
